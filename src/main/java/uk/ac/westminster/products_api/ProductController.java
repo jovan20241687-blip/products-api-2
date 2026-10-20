@@ -24,9 +24,7 @@ public class ProductController {
     }
 
     @PostMapping("/products")
-    public Product addProduct(@RequestBody Product product) {
-        return productService.addProduct(product);
-    }
+    public Product addProduct(@RequestBody DigitalProduct product) { return productService.addProduct(product); }
 
     // ---- in ProductController.java ----
     @DeleteMapping ("/products/{id}")

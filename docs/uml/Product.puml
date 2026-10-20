@@ -1,4 +1,4 @@
-@startuml
+6@startuml
 
 class Product {
   - id : Long
